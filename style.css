@@ -1,0 +1,349 @@
+html,body {
+    font-family: VolksRegular;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    color-scheme:dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    body, section, .row, .header-nav, nav, .wrapper-nav {
+      background-color: #222;
+      color: #fff;
+    }
+   .info-wrapper {
+      background-color: #222;
+      color: #fff;
+    }
+  }
+
+  @font-face {
+    font-family: VolksBOld;
+    src: url(../font/VolkswagenSerialBlackRegular.ttf);
+  }
+  @font-face {
+    font-family: VolksRegular;
+    src: url(../font/VolkswagenSerialBold.ttf);
+  }
+
+  /* Preloader styles */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Background color of preloader */
+  z-index: 9999; /* Ensure preloader is on top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light border */
+  border-top: 8px solid #3498db; /* Blue border (change color as needed) */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1.5s linear infinite; /* Rotate animation */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hide content when preloader is visible */
+.content {
+  display: none;
+}
+
+.preloader {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.site-name .fname{
+  font-size: 1.8rem;
+  color: #FF6914;
+}
+
+.site-name .lname{
+  font-size: 1.8rem;
+  color: #0d6efd;
+}
+
+  nav {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+
+  } 
+  
+  nav span {
+    font-size: 32px;
+    color: #0d6efd;
+  }
+  
+  .logo {
+    width: 100px;
+    object-fit: contain;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+  }
+  ul > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+  }
+  ul > li > a {
+    color: #000;
+  }
+  
+  .hover-3 {
+    --c: no-repeat linear-gradient(#0d6efd 0 0);
+    background: 
+      var(--c)  calc(-101% + var(--p,0%)) 100%,
+      var(--c)  calc( 201% - var(--p,0%)) 0;
+    background-size: 50.1% var(--p,.08em);
+    transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+    border-radius: 10px;
+  }
+  .hover-3:hover {
+    --p: 101%;
+    --t: 0.3s;
+    color: #fff;
+  }
+
+  section {
+    width: 100%;
+    padding: 10px 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .header-nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: inherit;
+  }
+
+  .offcanvas-body div ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    list-style: none;
+    align-items: start;
+    text-align: left;
+  }
+
+  .offcanvas-body div ul li {
+    text-align: left;
+    width: 100%;
+  }
+
+  .offcanvas-body div ul li a {
+    text-align: left;
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  .offcanvas-body div ul li a i {
+    font-size: 1.5rem;
+  }
+
+  .hover-3 {
+    --c: no-repeat linear-gradient(#0d6efd 0 0);
+    background: 
+      var(--c)  calc(-101% + var(--p,0%)) 100%,
+      var(--c)  calc( 201% - var(--p,0%)) 0;
+    background-size: 50.1% var(--p,.08em);
+    transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+    border-radius: 10px;
+  }
+  .hover-3:hover {
+    --p: 101%;
+    --t: 0.3s;
+    color: #fff;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-self: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper-nav {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-self: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .header, .center {
+    height: 100%;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #d6d4d4;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    }
+
+    .search input{
+     height: 30px;
+     border: 0;
+    }
+
+    .search input:focus{
+     box-shadow: none;
+    }
+
+    .search .fa-search{
+      padding: 15px;
+      background-color: #fff;
+      padding-right: 0;
+    }
+    .mg-bt {
+        margin-bottom: 20px; /* Adjust the value as needed */
+      }
+
+    .search button{
+/*      position: absolute; */
+/*      top: 50%;
+     right: 5px;
+     translate: 0% -50%; */
+     height: 50px;
+     width: 110px;
+     background: blue;
+     border-radius: 0;
+     margin: 0;
+     padding: 0;
+    }
+
+    @media only screen and (max-width: 770px) {
+      .col-12 {
+        display: flex;
+        width: 100%;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .col-12:first-child {
+        margin-bottom: 1rem;
+      }
+    } 
+
+
+    .fa-smog {
+        color: #FF6914;
+      }
+    
+    .card, .row a {
+        border-radius: 10px;
+        max-width: inherit;
+        overflow: hidden;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .card {
+      transition: box-shadow .3s;
+      border-radius:10px;
+      border: 1px solid #ccc;
+      background: #fff;
+      float: left;
+    }
+
+    .card:hover {
+      box-shadow: 0 0 25px rgba(33,33,33,.2); 
+    }
+
+    .card #thumbnail {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card .uploader {
+        padding: 0;
+    }
+
+    .card .uploader img {
+        object-fit: contain; 
+        margin: 0px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .card .info-wrapper {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        gap: 1rem;
+    }
+
+    .card .info-wrapper .thumbnail-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        margin-bottom: 5px;
+    }
+
+    .card .info-wrapper .thumbnail-info .episode-count, .year {
+        font-size: 0.8rem;
+        color: gray;
+    }
+    
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+    }

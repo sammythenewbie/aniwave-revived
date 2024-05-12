@@ -1,0 +1,96 @@
+[
+    {
+      "title": "Kimitsu No Yaiba",
+      "episodeCount": "216 Episodes",
+      "year": "2024",
+      "image": "demon-slayer.jpg",
+      "uploader": "Ufotable_logo.svg.png",
+      "link": "https://example.com/anime1"
+    },
+    {
+      "title": "Bleach: Thousand-Year Blood War",
+      "episodeCount": "100 Episodes",
+      "year": "2023",
+      "image": "bleach-anime-cancelled.jpeg",
+      "uploader": "Studio_Pierrot_logo.svg",
+      "link": "https://example.com/anime2"
+    },
+    {
+        "title": "Kimitsu No Yaiba",
+        "episodeCount": "216 Episodes",
+        "year": "2024",
+        "image": "demon-slayer.jpg",
+        "uploader": "Ufotable_logo.svg.png",
+        "link": "https://example.com/anime1"
+      },
+      {
+        "title": "Kimitsu No Yaiba",
+        "episodeCount": "216 Episodes",
+        "year": "2024",
+        "image": "demon-slayer.jpg",
+        "uploader": "Ufotable_logo.svg.png",
+        "link": "https://example.com/anime1"
+      },
+      {
+        "title": "Bleach: Thousand-Year Blood War",
+        "episodeCount": "100 Episodes",
+        "year": "2023",
+        "image": "bleach-anime-cancelled.jpeg",
+        "uploader": "Studio_Pierrot_logo.svg",
+        "link": "https://example.com/anime2"
+      },
+      {
+          "title": "Kimitsu No Yaiba",
+          "episodeCount": "216 Episodes",
+          "year": "2024",
+          "image": "demon-slayer.jpg",
+          "uploader": "Ufotable_logo.svg.png",
+          "link": "https://example.com/anime1"
+        },    {
+          "title": "Kimitsu No Yaiba",
+          "episodeCount": "216 Episodes",
+          "year": "2024",
+          "image": "demon-slayer.jpg",
+          "uploader": "Ufotable_logo.svg.png",
+          "link": "https://example.com/anime1"
+        },
+        {
+          "title": "Bleach: Thousand-Year Blood War",
+          "episodeCount": "100 Episodes",
+          "year": "2023",
+          "image": "bleach-anime-cancelled.jpeg",
+          "uploader": "Studio_Pierrot_logo.svg",
+          "link": "https://example.com/anime2"
+        },
+        {
+            "title": "Kimitsu No Yaiba",
+            "episodeCount": "216 Episodes",
+            "year": "2024",
+            "image": "demon-slayer.jpg",
+            "uploader": "Ufotable_logo.svg.png",
+            "link": "https://example.com/anime1"
+          },{
+            "title": "Bleach: Thousand-Year Blood War",
+            "episodeCount": "100 Episodes",
+            "year": "2023",
+            "image": "bleach-anime-cancelled.jpeg",
+            "uploader": "Studio_Pierrot_logo.svg",
+            "link": "https://example.com/anime2"
+          },
+          {
+              "title": "Kimitsu No Yaiba",
+              "episodeCount": "216 Episodes",
+              "year": "2024",
+              "image": "demon-slayer.jpg",
+              "uploader": "Ufotable_logo.svg.png",
+              "link": "https://example.com/anime1"
+            },{
+              "title": "Kimitsu No Yaiba",
+              "episodeCount": "216 Episodes",
+              "year": "2024",
+              "image": "demon-slayer.jpg",
+              "uploader": "Ufotable_logo.svg.png",
+              "link": "https://example.com/anime1"
+            }
+  ]
+  
